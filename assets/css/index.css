@@ -256,9 +256,14 @@ h2::before {
 
 .projects__cat {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-top: 1rem;
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 16px;
 }
 
 .projects__cat a {
@@ -279,6 +284,11 @@ h2::before {
 
 .activities h3 {
     margin-top: 2rem;
+}
+
+.activities-description {
+    font-size: 22px;
+    margin-top: 1rem;
 }
 
 /* FOOTER */
